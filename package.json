@@ -1,0 +1,38 @@
+{
+  "name": "strapi-provider-upload-bunnycdn",
+  "version": "1.0.0",
+  "description": "BunnyCDN provider for Strapi upload",
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/laukatu/strapi-provider-upload-bunnycdn.git"
+  },
+  "keywords": [
+    "strapi",
+    "upload",
+    "provider",
+    "storage",
+    "bunny.net",
+    "bunnyCDN",
+    "cdn"
+  ],
+  "strapi": {
+    "isProvider": true
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "author": {
+    "email": "luis@laukatu.com",
+    "name": "Luis Lorenzo",
+    "url": "https://laukatu.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laukatu/strapi-provider-upload-bunnycdn/issues"
+  },
+  "homepage": "https://github.com/laukatu/strapi-provider-upload-bunnycdn#readme"
+}
