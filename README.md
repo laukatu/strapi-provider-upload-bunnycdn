@@ -57,8 +57,8 @@ module.exports = [
         useDefaults: true,
         directives: {
           'connect-src': ["'self'", 'https:'],
-          'img-src': ["'self'", 'data:', 'blob:', 'dl.airtable.com', env("BUNNYCDN_PULL_ZONE"), env("BUNNYCDN_PULL_ZONE")],
-          'media-src': ["'self'", 'data:', 'blob:', 'dl.airtable.com', env("BUNNYCDN_PULL_ZONE"), env("BUNNYCDN_PULL_ZONE")],
+          'img-src': ["'self'", 'data:', 'blob:', 'dl.airtable.com', env("BUNNYCDN_STORAGE_ZONE"), env("BUNNYCDN_PULL_ZONE")],
+          'media-src': ["'self'", 'data:', 'blob:', 'dl.airtable.com', env("BUNNYCDN_STORAGE_ZONE"), env("BUNNYCDN_PULL_ZONE")],
           upgradeInsecureRequests: null,
         },
       },
